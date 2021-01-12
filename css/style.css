@@ -78,6 +78,7 @@ body{
 .sec-3{
     width: 800px;
     background-image: url(../images/pricing-illustration.svg);
+    margin-bottom: 50px;
 }
 .section-title{
     text-align: center;
@@ -91,11 +92,114 @@ body{
 }
 
 .pricing-table{
-    width: 50%;
+    width: 35%;
     background-color: #2C3039;
     text-align: left;
     margin: auto;
+    height: 100%;
+    padding: 24px;
 }
 .a{
     color: #02CBB1;
+}
+.pricing-table p{
+    color: #818A9C;
+}
+.b{
+    color: #818A9C;
+}
+.pricing-table h1{
+    position: relative;
+    bottom: 24px;
+    right: 10px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.line{
+    position: relative;
+    bottom: 40px;
+    right: 10px;
+}
+.pricing-table h3{
+    position: relative;
+    color:#ffffff;
+    bottom: 35px;
+}
+.pricing table p{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.pricing-table  a{
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+.fourth-sec{
+  background-color: #15181D;
+  padding: 40px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.sec-content{
+    background-image: url(../images/cta-illustration.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+    display: flex;
+}
+.sec-content a{
+    position: relative;
+    left: 500px;
+}
+.sec-content h1{
+    color: #ffffff;
+    font-size:30px;
+}
+.btn{
+    border: none;
+    position: relative;
+    left: 500px;
+    text-decoration: none;
+    padding: 13px 21px;
+    color: antiquewhite;
+    border-radius: 3px;
+    margin: 5px;
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg,#0579E5,#178CFA);
+}
+.fifth-sec{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.social{
+    position: relative;
+    top: 50px;
+}
+.icon{
+    color: #097DEA;
+    margin: 10px;
+    font-size: 25px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul{
+    list-style: none;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+footer ul li a {
+    text-decoration: none;
+    color:#8A94A7;
+    font-size: 15px;
+
+}
+.copyright p{
+    color: #8A94A7;
 }
