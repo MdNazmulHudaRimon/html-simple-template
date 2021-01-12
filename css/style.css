@@ -1,0 +1,101 @@
+body{
+    background-color: #1F2329;
+}
+.container{
+    width: 1150px;
+    margin:auto;
+}
+.logo img{
+    width: 50px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.header-content{
+    margin-top: 30px;
+}
+.header-content h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+.col{
+    width: 50%;
+}
+.header{
+    display: flex;
+}
+.header-content p,.section-title p{
+    color: #5c6270;
+    font-size: 23px;
+    font-weight:300;
+    margin-bottom: 50px;
+}
+.button{
+    text-decoration: none;
+    padding: 14px 21px;
+    color: antiquewhite;
+    border-radius: 3px;
+    margin: 5px;
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg,#0579E5,#178CFA);
+}
+.btn-changes{
+    background-image: linear-gradient(45deg, #000000,#506698);
+    border-radius: 2px;
+}
+.button:hover{
+    box-shadow: 2px 4px 6px 5px #000000;
+}
+.border-radius:hover{
+    background-color: #262A33;
+}
+.header-img img{
+    width: 450px;
+    margin-left: 60px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.boxes{
+    text-align:center;
+    border: 1px solid #1D2026;
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 4px 2px #0000004a;
+
+}
+.sec-2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.boxes:hover{
+    box-shadow: 0px 4px 7px 8px #e05555;
+    transform: translateY(-8px);
+    transition: transform 1s;
+}
+.sec-3{
+    width: 800px;
+    background-image: url(../images/pricing-illustration.svg);
+}
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    color:#ffffff;
+    font-size: 30px;
+}
+.section-title p{
+    font-size: 20px;
+}
+
+.pricing-table{
+    width: 50%;
+    background-color: #2C3039;
+    text-align: left;
+    margin: auto;
+}
+.a{
+    color: #02CBB1;
+}
