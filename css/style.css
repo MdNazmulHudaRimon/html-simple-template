@@ -69,6 +69,7 @@ body{
 .sec-2{
     margin-top: 100px;
     margin-bottom: 100px;
+    color: #ffffff;
 }
 .boxes:hover{
     box-shadow: 0px 4px 7px 8px #e05555;
@@ -79,6 +80,7 @@ body{
     width: 800px;
     background-image: url(../images/pricing-illustration.svg);
     margin-bottom: 50px;
+    margin: auto;
 }
 .section-title{
     text-align: center;
@@ -202,4 +204,46 @@ footer ul li a {
 }
 .copyright p{
     color: #8A94A7;
+}
+@media (max-width:992px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+    }
+    .boxes{
+        text-align:center;
+        border: 1px solid #1D2026;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: 0px 0px 4px 2px #0000004a;
+    }
+    .sec-3{
+        width: 1150px;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+@media(max-width:668px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+    }
+    .boxes{
+        text-align:center;
+        border: 1px solid #1D2026;
+        margin: 5px;
+        padding: 3px;
+        box-shadow: 0px 0px 4px 2px #0000004a;
+    }
+    .sec-3{
+        width: 1150px;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center
+        ;
+    }
 }
